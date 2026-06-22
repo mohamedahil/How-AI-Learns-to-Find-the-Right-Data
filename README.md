@@ -30,6 +30,4 @@ Every module in this repository contains two core components to ensure a complet
 To run any of the PoCs locally and experiment with the parameters, clone the repository and install the base dependencies:
 
 ```bash
-git clone [https://github.com/yourusername/deep-learning-math-pocs.git](https://github.com/yourusername/deep-learning-math-pocs.git)
-cd deep-learning-math-pocs
-pip install torch numpy
+
