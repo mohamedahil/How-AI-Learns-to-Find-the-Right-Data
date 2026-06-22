@@ -2,26 +2,34 @@
 Mathematical derivations and PyTorch Proof-of-Concepts for modern Deep Learning architectures, including LLMs, RAG, and Agentic systems.
 
 
-# 🧮 Proof of Concept: [Insert Concept Name, e.g., Rotary Position Embedding]
+# 🧠 Deep Learning & Math: Proof of Concepts
 
-## 🎯 The Objective
-[Write 1-2 sentences explaining what this specific script and math derivation proves. e.g., "This PoC mathematically proves that by rotating query and key embeddings in complex space, their attention score becomes strictly a function of relative distance."]
+A centralized repository for my research, mathematical derivations, and functional Proof of Concepts (PoCs) in Data Science and Artificial Intelligence.
 
-## 📊 The Mathematical Core
-This module contains handwritten derivations proving the underlying mechanics of the concept. 
+The goal of this project is to bridge theoretical mathematics with executable code, exploring the underlying mechanics of modern AI architectures, Large Language Models (LLMs), and autonomous agents from first principles.
 
-**Key Equations Explored:**
-* [Insert core equation 1, e.g., Euler's formula application]
-* [Insert core equation 2, e.g., The resulting inner product]
+## 🧮 What's Inside
 
-> 🖼️ **Note:** View the full handwritten mathematical proof in the `notes_scan.png` file included in this directory.
+Every module in this repository contains two core components to ensure a complete understanding of the topic:
+1. **The Math:** Clear derivations of core concepts (e.g., loss landscapes, gradient flows, attention mechanisms).
+2. **The Code:** Clean, executable Python scripts validating the math through minimal, focused Proof of Concepts.
 
-## 💼 Real-World Application
-[Explain why this matters in production. e.g., "Standard position embeddings fail at extreme sequence lengths. This mathematical rotation is the exact mechanism that allows models like LLaMA to extrapolate to 100k+ context windows without losing accuracy."]
+## 📂 Structure
 
-## 💻 Running the Code
-This script requires no heavy frameworks, just standard `numpy` (or `torch`) to validate the math empirically.
+* `/01_Concept_Name/` - Contains the mathematical breakdown, real-world use case, and `poc.py`.
+* `/02_Concept_Name/` - Contains the mathematical breakdown, real-world use case, and `poc.py`.
+*(Additional modules will be added as research continues)*
+
+## 🛠️ Tech Stack
+
+* **Language:** Python 3.x
+* **Core Libraries:** PyTorch, NumPy
+
+## 🚀 Quick Start
+
+To run any of the PoCs locally and experiment with the parameters, clone the repository and install the base dependencies:
 
 ```bash
-# Execute the proof
-python run_proof.py
+git clone [https://github.com/yourusername/deep-learning-math-pocs.git](https://github.com/yourusername/deep-learning-math-pocs.git)
+cd deep-learning-math-pocs
+pip install torch numpy
